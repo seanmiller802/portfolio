@@ -89,7 +89,7 @@ h2 {
   position: absolute;
   width: 8em;
   height: 2em;
-  top: 50%;
+  top: 75%;
   right: -5em;
   overflow: hidden;
   -webkit-transition: right .5s ease;
@@ -99,238 +99,29 @@ h2 {
   background-color: #a661c2;
 }
 
-.side-tab-2 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  position: absolute;
-  width: 8em;
-  height: 2em;
-  top: 55%;
-  right: -5em;
-  overflow: hidden;
-  -webkit-transition: right .5s ease;
-  -moz-transition: right .5s ease;
-  -o-transition: right .5s ease;
-  transition: right .5s ease;
-  background-color: orange;
-}
-
-.side-tab-1 i,
-.side-tab-2 i {
+.side-tab-1 i {
   margin: 0;
   margin-left: 1em;
   color: #fff;
 }
 
-.side-tab-1 span,
-.side-tab-2 span {
+.side-tab-1 span {
   display: none;
 }
 
-.side-tab-1:hover,
-.side-tab-2:hover {
+.side-tab-1:hover {
   width: 8em;
   right: 0;
   color: #fff;
   cursor: pointer;
 }
 
-.side-tab-1:hover span,
-.side-tab-2:hover span {
+.side-tab-1:hover span {
   display: flex;
   margin-left: .5em;
   color: #fff;
 }
 
-.rain1 {
-  position: absolute;
-  font-size: 4em;
-  animation: rain1;
-  animation-duration: 3s;
-  color: orange;
-}
-
-.rain2 {
-  position: absolute;
-  font-size: 4em;
-  animation: rain2;
-  animation-duration: 3s;
-  color: orange;
-}
-
-.rain3 {
-  position: absolute;
-  font-size: 4em;
-  animation: rain3;
-  animation-duration: 3s;
-  color: orange;
-}
-
-.rain4 {
-  position: absolute;
-  font-size: 4em;
-  animation: rain4;
-  animation-duration: 3s;
-  color: orange;
-}
-
-.rain5 {
-  position: absolute;
-  font-size: 4em;
-  animation: rain5;
-  animation-duration: 3s;
-  color: orange;
-}
-
-.rain6 {
-  position: absolute;
-  font-size: 4em;
-  animation: rain6;
-  animation-duration: 3s;
-  color: orange;
-}
-
-.rain7 {
-  position: absolute;
-  font-size: 4em;
-  animation: rain7;
-  animation-duration: 3s;
-  color: orange;
-}
-
-.rain8 {
-  position: absolute;
-  font-size: 4em;
-  animation: rain8;
-  animation-duration: 3s;
-  color: orange;
-}
-
-.rain9 {
-  position: absolute;
-  font-size: 4em;
-  animation: rain9;
-  animation-duration: 3s;
-  color: orange;
-}
-
-@keyframes rain1 {
-  0% {
-    top: 0%;
-    left: 10%;
-  }
-
-  100% {
-    top: 100%;
-    left: 10%;
-    display: none;
-  }
-}
-
-@keyframes rain2 {
-  0% {
-    top: 0%;
-    left: 20%;
-  }
-
-  100% {
-    top: 100%;
-    left: 20%;
-    display: none;
-  }
-}
-
-@keyframes rain3 {
-  0% {
-    top: 0%;
-    left: 30%;
-  }
-
-  100% {
-    top: 100%;
-    left: 30%;
-    display: none;
-  }
-}
-
-@keyframes rain4 {
-  0% {
-    top: 0%;
-    left: 40%;
-  }
-
-  100% {
-    top: 100%;
-    left: 40%;
-    display: none;
-  }
-}
-
-@keyframes rain5 {
-  0% {
-    top: 0%;
-    left: 50%;
-  }
-
-  100% {
-    top: 100%;
-    left: 50%;
-    display: none;
-  }
-}
-
-@keyframes rain6 {
-  0% {
-    top: 0%;
-    left: 60%;
-  }
-
-  100% {
-    top: 100%;
-    left: 60%;
-    display: none;
-  }
-}
-
-@keyframes rain7 {
-  0% {
-    top: 0%;
-    left: 70%;
-  }
-
-  100% {
-    top: 100%;
-    left: 70%;
-    display: none;
-  }
-}
-
-@keyframes rain8 {
-  0% {
-    top: 0%;
-    left: 80%;
-  }
-
-  100% {
-    top: 100%;
-    left: 80%;
-    display: none;
-  }
-}
-
-@keyframes rain9 {
-  0% {
-    top: 0%;
-    left: 90%;
-  }
-
-  100% {
-    top: 100%;
-    left: 90%;
-    display: none;
-  }
-}
 
 @media only screen and (max-width: 768px) {
 
@@ -344,24 +135,7 @@ h2 {
   }
 
   .side-tab-1 {
-    top: 80%;
-  }
-
-  .side-tab-2 {
     top: 90%;
-  }
-
-  .rain1,
-  .rain2,
-  .rain3,
-  .rain4,
-  .rain5,
-  .rain6,
-  .rain7,
-  .rain8,
-  .rain9,
-  .rain10 {
-    font-size: 2em;
   }
 
 }

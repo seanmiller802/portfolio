@@ -7,6 +7,7 @@
   transform: translateX(0%);
   transition: transform 1s;
   background-color: #a661c2;
+  z-index: 100000;
 }
 
 #contact-sidebar.hidden { 
@@ -18,6 +19,7 @@
   transform: translateX(100%);
   transition: transform 1s;
   background-color: #a661c2;
+  z-index: 100000;
 }
 
 .close {
@@ -40,7 +42,8 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   
-  .contact-sidebar {
+  #contact-sidebar.visible,
+  #contact-sidebar.hidden {
     width: 100%;
   }
 
