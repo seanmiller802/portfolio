@@ -89,7 +89,7 @@ h2 {
   position: absolute;
   width: 8em;
   height: 2em;
-  top: 75%;
+  top: 60%;
   right: -5em;
   overflow: hidden;
   -webkit-transition: right .5s ease;
