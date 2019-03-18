@@ -1,0 +1,47 @@
+#contact-sidebar.visible { 
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40vw;
+  height: 100vh; 
+  transform: translateX(0%);
+  transition: transform 1s;
+  background-color: #a661c2;
+}
+
+#contact-sidebar.hidden { 
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40vw;
+  height: 100vh; 
+  transform: translateX(100%);
+  transition: transform 1s;
+  background-color: #a661c2;
+}
+
+.close {
+  float: left;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 1.5em;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  color: #fff;
+}
+
+.close:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: #000051;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .contact-sidebar {
+    width: 100%;
+  }
+
+}

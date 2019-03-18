@@ -1,0 +1,367 @@
+h1 {
+  font-size: 3.75em;
+  font-weight: 800;
+  letter-spacing: -.03em;
+  color: #666;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: Exo, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #666;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-content {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+#contact-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-list {
+  list-style-type: none;
+  font-size: 1.5em;
+  text-align: left;
+  padding: 0px;
+}
+
+.contact-list li {
+  margin-bottom: .5em;
+}
+
+.contact-list li:hover {
+  cursor: pointer;
+}
+
+.contact-list li:hover .contact-list-icon {
+  color: #a661c2;
+}
+
+.contact-list li a {
+  text-decoration: none;
+  border-bottom: 1px dashed #a661c2;
+}
+
+.contact-list li a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #a661c2;
+}
+
+.contact-list-icon {
+  margin-right: 1em;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
+  color: #ccc;
+}
+
+.contact-list-icon:hover {
+  color: #a661c2;
+}
+
+.contact-list-text {
+  color: #a661c2;
+}
+
+.fa-comment {
+  margin-right: 10px;
+}
+
+.side-tab-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  width: 8em;
+  height: 2em;
+  top: 50%;
+  right: -5em;
+  overflow: hidden;
+  -webkit-transition: right .5s ease;
+  -moz-transition: right .5s ease;
+  -o-transition: right .5s ease;
+  transition: right .5s ease;
+  background-color: #a661c2;
+}
+
+.side-tab-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  width: 8em;
+  height: 2em;
+  top: 55%;
+  right: -5em;
+  overflow: hidden;
+  -webkit-transition: right .5s ease;
+  -moz-transition: right .5s ease;
+  -o-transition: right .5s ease;
+  transition: right .5s ease;
+  background-color: orange;
+}
+
+.side-tab-1 i,
+.side-tab-2 i {
+  margin: 0;
+  margin-left: 1em;
+  color: #fff;
+}
+
+.side-tab-1 span,
+.side-tab-2 span {
+  display: none;
+}
+
+.side-tab-1:hover,
+.side-tab-2:hover {
+  width: 8em;
+  right: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.side-tab-1:hover span,
+.side-tab-2:hover span {
+  display: flex;
+  margin-left: .5em;
+  color: #fff;
+}
+
+.rain1 {
+  position: absolute;
+  font-size: 4em;
+  animation: rain1;
+  animation-duration: 3s;
+  color: orange;
+}
+
+.rain2 {
+  position: absolute;
+  font-size: 4em;
+  animation: rain2;
+  animation-duration: 3s;
+  color: orange;
+}
+
+.rain3 {
+  position: absolute;
+  font-size: 4em;
+  animation: rain3;
+  animation-duration: 3s;
+  color: orange;
+}
+
+.rain4 {
+  position: absolute;
+  font-size: 4em;
+  animation: rain4;
+  animation-duration: 3s;
+  color: orange;
+}
+
+.rain5 {
+  position: absolute;
+  font-size: 4em;
+  animation: rain5;
+  animation-duration: 3s;
+  color: orange;
+}
+
+.rain6 {
+  position: absolute;
+  font-size: 4em;
+  animation: rain6;
+  animation-duration: 3s;
+  color: orange;
+}
+
+.rain7 {
+  position: absolute;
+  font-size: 4em;
+  animation: rain7;
+  animation-duration: 3s;
+  color: orange;
+}
+
+.rain8 {
+  position: absolute;
+  font-size: 4em;
+  animation: rain8;
+  animation-duration: 3s;
+  color: orange;
+}
+
+.rain9 {
+  position: absolute;
+  font-size: 4em;
+  animation: rain9;
+  animation-duration: 3s;
+  color: orange;
+}
+
+@keyframes rain1 {
+  0% {
+    top: 0%;
+    left: 10%;
+  }
+
+  100% {
+    top: 100%;
+    left: 10%;
+    display: none;
+  }
+}
+
+@keyframes rain2 {
+  0% {
+    top: 0%;
+    left: 20%;
+  }
+
+  100% {
+    top: 100%;
+    left: 20%;
+    display: none;
+  }
+}
+
+@keyframes rain3 {
+  0% {
+    top: 0%;
+    left: 30%;
+  }
+
+  100% {
+    top: 100%;
+    left: 30%;
+    display: none;
+  }
+}
+
+@keyframes rain4 {
+  0% {
+    top: 0%;
+    left: 40%;
+  }
+
+  100% {
+    top: 100%;
+    left: 40%;
+    display: none;
+  }
+}
+
+@keyframes rain5 {
+  0% {
+    top: 0%;
+    left: 50%;
+  }
+
+  100% {
+    top: 100%;
+    left: 50%;
+    display: none;
+  }
+}
+
+@keyframes rain6 {
+  0% {
+    top: 0%;
+    left: 60%;
+  }
+
+  100% {
+    top: 100%;
+    left: 60%;
+    display: none;
+  }
+}
+
+@keyframes rain7 {
+  0% {
+    top: 0%;
+    left: 70%;
+  }
+
+  100% {
+    top: 100%;
+    left: 70%;
+    display: none;
+  }
+}
+
+@keyframes rain8 {
+  0% {
+    top: 0%;
+    left: 80%;
+  }
+
+  100% {
+    top: 100%;
+    left: 80%;
+    display: none;
+  }
+}
+
+@keyframes rain9 {
+  0% {
+    top: 0%;
+    left: 90%;
+  }
+
+  100% {
+    top: 100%;
+    left: 90%;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  h2 {
+    font-size: 1.75em;
+  }
+
+  .contact-content {
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .side-tab-1 {
+    top: 80%;
+  }
+
+  .side-tab-2 {
+    top: 90%;
+  }
+
+  .rain1,
+  .rain2,
+  .rain3,
+  .rain4,
+  .rain5,
+  .rain6,
+  .rain7,
+  .rain8,
+  .rain9,
+  .rain10 {
+    font-size: 2em;
+  }
+
+}

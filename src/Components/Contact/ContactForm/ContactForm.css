@@ -1,0 +1,100 @@
+input:hover,
+textarea:hover {
+  outline: none;
+}
+
+.contact-form {
+  color: #fff;
+}
+
+#contact-form-title {
+  color: #fff;
+}
+
+.form-input {
+  margin-bottom: 2em;
+  border-radius: 0px;
+  border-style: none;
+  background-color: #fff;
+}
+
+#from,
+#email {
+  width: 80%;
+  height: 2em;
+  padding: 5px;
+  background-color: #fafafa;
+}
+
+#message {
+  width: 80%;
+  height: 10em;
+  padding: 5px;
+  background-color: #fafafa;
+}
+
+.contact-submit {
+  padding: 1em 3em;
+  border-radius: 0px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #a661c2;
+}
+
+.contact-submit:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  color: #a661c2;
+}
+
+.form-error {
+  margin: auto;
+  margin-bottom: 1em;
+  width: 80%;
+  padding: .5em;
+  border-radius: 5px;
+  color: white;
+  background-color: #e57373;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+
+  0% { 
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+  
+}
+
+.form-success {
+  margin: auto;
+  margin-bottom: 1em;
+  width: 80%;
+  padding: .5em;
+  border-radius: 5px;
+  color: white;
+  background-color: #81c784;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% { 
+    opacity: 1;
+  }
+  
+}
+
