@@ -123,7 +123,7 @@ class Form extends Component {
           </div>
           <FormMessage error={error} success={success} />
           <div>
-            <input type="submit" value={buttonText} className="contact-submit" onClick={this.handleSubmit} />
+            <a href="#" className="contact-submit" onClick={this.handleSubmit}>{buttonText}</a>
           </div>
         </form>
       </div>
